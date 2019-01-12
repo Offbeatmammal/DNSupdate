@@ -61,7 +61,7 @@ if ($ip_address -ne $null) {
 	$recordurl = "$baseurl/$zoneid/dns_records/?name=$cloudflareURL"
 	$dnsrecord = Invoke-RestMethod -Headers $headers -Method Get -Uri $recordurl
 	$cfipaddr = $dnsrecord.result.content 
-	if ($cfipaddr -eq "bob"+$ipaddr) {
+	if ($cfipaddr -eq $ipaddr) {
 		#LogWrite("Current IP $ipaddr, No updates required")
 	} else {
 		LogWrite("IP has changed from $cfipaddr to $ipaddr, initiating update")
