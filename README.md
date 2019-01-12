@@ -10,6 +10,8 @@ In my particular scenario I needed to update a [CloudFlare](https://cloudflare.c
 
 As I have a Windows machine that's always-on, it seemed like a good exercise to do with PowerShell, though easy enough to switch to bash if I want to move it to the Raspberry-PI that's used for some other things at home.
 
+I know there are existing services like NoIp.com or other dynamic DNS services (as well as updater apps) but none of them delivered all the features I needed with the flexibility - hence rolling my own.
+
 How to use
 ----------
 
@@ -24,6 +26,7 @@ To Do
 ----------
 * Improve error trapping
 * Optimize code
+* Add additional services as required
 
 ----------
 If you make use of this and like it and want to give something back... [I wrote a book!](http://author.obm.one) :)
