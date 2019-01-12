@@ -33,7 +33,7 @@ If you make use of this and like it and want to give something back... [I wrote 
 Contribute
 ----------
 This project can be forked from
-[Github](https://github.com/Offbeatmammal/blync-node). Please issue pull
+[Github](https://github.com/Offbeatmammal/DNSupdate). Please issue pull
 requests from feature branches.
 
 License
