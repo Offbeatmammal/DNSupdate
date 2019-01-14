@@ -43,6 +43,7 @@ $wc = new-object System.Net.WebClient
 $ipaddr = $wc.DownloadString("http://myexternalip.com/raw").replace("`n","")
 
 $ip_address = $null
+# fun hack to validate the IP address
 $a = [System.Net.IPAddress]::TryParse($ipaddr, [ref]$ip_address)
 if ($ip_address -ne $null) {
 
